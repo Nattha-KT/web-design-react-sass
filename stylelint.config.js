@@ -1,7 +1,11 @@
 export default {
-  extends: ['stylelint-config-standard', 'stylelint-scss'],
+  extends: ['stylelint-config-standard', 'stylelint-config-recommended-scss'],
+  plugins: ['stylelint-scss'],
   rules: {
-    'selector-class-pattern': null, // Customize here.
-    'no-descending-specificity': null,
+    indentation: 2,
+    'color-hex-case': 'lower',
+    'max-nesting-depth': 3,
+    'no-duplicate-at-import-rules': true,
   },
+  ignoreFiles: ['**/node_modules/**', '**/dist/**'],
 };

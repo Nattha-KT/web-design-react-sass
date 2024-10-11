@@ -3,11 +3,12 @@ export default {
   '**/*.(ts|tsx)': () => 'npx tsc --noEmit',
 
   // Lint and Format TypeScript and JavaScript
-  '**/*.(ts|tsx|js|scss)': (filenames) => [
+  '**/*.(ts|tsx|js)': (filenames) => [
     `npx eslint --fix ${filenames.join(' ')}`,
     `npx prettier --write ${filenames.join(' ')}`,
   ],
-
+// Stylelint 
+   '**/*.scss': ['prettier --write', 'stylelint --fix'],
 
   // Format MarkDown and JSON
   '**/*.(md|json)': (filenames) =>
