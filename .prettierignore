@@ -1,0 +1,10 @@
+node_modules
+out
+build
+public
+# *.config.js
+*.setup.js
+.github
+*.config.js
+*mdx
+.vscode
