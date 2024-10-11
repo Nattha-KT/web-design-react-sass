@@ -15,8 +15,7 @@ export default tseslint.config(
       "public",
       "*.config.js",
       "*.setup.js",
-      ".vscode/**",
-      ".prettierrc.js",
+      "document"
     ],
   },
   {
