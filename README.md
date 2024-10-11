@@ -2,6 +2,11 @@
 
 This project is a **React** application built with **Vite** and **TypeScript**, designed to explore best practices for implementing **Sass** in a scalable and maintainable way.
 
+##### Design Page
+
+- [Preview Figma Design](https://www.figma.com/proto/G0G2hiakTFlfASRSV7xn7v/Figma-Website-Template---Landing-Page-(Free)-(Community)?node-id=0-88&t=rhL0qms5YJiXOZMj-1)
+- The Figma UI Kit is open sourced by [Figma](https://www.figma.com/community/file/849342658995967505/figma-website-template-landing-page-free).
+
 ## Getting Started
 
 Follow these instructions to set up and run the project locally.
@@ -39,22 +44,14 @@ cd web-design-react-sass
 This project uses **Vite**, **React**, **TypeScript**, and **Sass**. To install all the necessary dependencies, run:
 
 ```bash
-# Using Yarn
-yarn install
-
-# Or using npm
 npm install
 ```
 
 #### 4. Install Sass:
 
-Sass is required for styling the application. It can be installed via npm or Yarn:
+Sass is required for styling the application. It can be installed via npm :
 
 ```bash
-# Using Yarn
-yarn add sass
-
-# Or using npm
 npm install sass
 ```
 
@@ -65,10 +62,6 @@ npm install sass
 To start the development server and see the application in action:
 
 ```bash
-# Using Yarn
-yarn dev
-
-# Or using npm
 npm run dev
 ```
 
@@ -121,10 +114,6 @@ You can customize the Sass files located in `src/assets/styles`. For example, yo
 When you're ready to build the project for production:
 
 ```bash
-# Using Yarn
-yarn build
-
-# Or using npm
 npm run build
 ```
 
@@ -143,9 +132,9 @@ For a cleaner codebase, you can add **stylelint** to ensure best practices for S
 
 ### Useful Scripts
 
-- `yarn dev` or `npm run dev`: Start the development server
-- `yarn build` or `npm run build`: Create a production build
-- `yarn lint` or `npm run lint`: Run linters to check code quality
+- `npm run dev`: Start the development server
+- `npm run build`: Create a production build
+- `npm run lint`: Run linters to check code quality
 
 ### License
 
