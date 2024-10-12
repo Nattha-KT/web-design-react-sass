@@ -8,7 +8,7 @@ export default {
     `npx prettier --write ${filenames.join(' ')}`,
   ],
 // Stylelint 
-   '**/*.scss': ['prettier --write', 'stylelint --fix'],
+   '**/*.scss': ['stylelint --fix'],
 
   // Format MarkDown and JSON
   '**/*.(md|json)': (filenames) =>
