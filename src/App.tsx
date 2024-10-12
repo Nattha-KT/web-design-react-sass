@@ -1,10 +1,12 @@
-import './App.css';
-import { Hero } from './components';
+import { Header, Hero } from './components';
 
 function App() {
   return (
     <>
-      <Hero />
+      <Header />
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }

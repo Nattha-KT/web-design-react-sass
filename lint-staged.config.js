@@ -8,7 +8,7 @@ export default {
     `npx prettier --write ${filenames.join(' ')}`,
   ],
 // Stylelint 
-   '**/*.scss': ['stylelint --fix --rule "scss/load-no-partial-leading-underscore: null"'],
+   '**/*.scss': ['prettier --write', 'stylelint --fix'],
 
   // Format MarkDown and JSON
   '**/*.(md|json)': (filenames) =>
