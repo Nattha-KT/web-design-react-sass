@@ -1,9 +1,12 @@
-// Variables & Variances
+// Variables & Function
+@import './utils/functions';
 @import './utils/variables';
 @import './utils/variant-color';
-// Base & Layput
+// Base & Layout
 @import './base/reset';
 
+//Components
+@import './components/button';
+
 // Utilities
-@import './utils/functions';
 @import './utils/mixins';
