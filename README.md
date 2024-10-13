@@ -30,7 +30,7 @@ npm i -D @types/node-sass
 #### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/web-design-react-sass.git
+git clone https://github.com/Nattha-KT/web-design-react-sass.git
 ```
 
 #### 2. Navigate to the project directory:
