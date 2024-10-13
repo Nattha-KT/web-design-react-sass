@@ -1,4 +1,9 @@
-@import './base/reset';
+// Variables & Variances
 @import './utils/variables';
+@import './utils/variant-color';
+// Base & Layput
+@import './base/reset';
+
+// Utilities
 @import './utils/functions';
 @import './utils/mixins';

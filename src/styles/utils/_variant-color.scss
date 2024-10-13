@@ -1,0 +1,51 @@
+@each $key, $val in $colors {
+  // Base color classes
+  .text-#{$key} {
+    color: $val;
+  }
+  .text-hover-#{$key} {
+    &:hover {
+      color: $val;
+    }
+  }
+  .bg-#{$key} {
+    background-color: $val;
+  }
+
+  @if ($val != black and $val != white) {
+    // Generate both light and dark variations in one loop
+    @for $i from 1 through 9 {
+      $light-color: mix(white, $val, $i * 10%);
+      $dark-color: mix(black, $val, $i * 10%);
+
+      .text-#{$key}-light-#{$i} {
+        color: $light-color;
+      }
+      .text-hover-#{$key}-light-#{$i} {
+        color: $light-color;
+
+        &:hover {
+          color: $light-color;
+        }
+      }
+      .bg-#{$key}-light-#{$i} {
+        background-color: $light-color;
+      }
+
+      .text-#{$key}-dark-#{$i} {
+        color: $dark-color;
+      }
+      .text-hover-#{$key}-dark-#{$i} {
+        color: $dark-color;
+
+        &:hover {
+          color: $dark-color;
+        }
+      }
+
+      .bg-#{$key}-dark-#{$i} {
+        background-color: $dark-color;
+      }
+    }
+  }
+}
