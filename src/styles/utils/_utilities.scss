@@ -1,0 +1,124 @@
+@use 'sass:math';
+
+$base-padding: 1rem;
+$base-margin: 1rem;
+$base-border-radius: 0.25rem;
+$font-size-sm: 0.875rem;
+$base-font-size: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
+$font-size-xxl: 2rem;
+
+// Define spacing scale similar to Tailwind
+$spacing-scale: (
+  '0': 0,
+  '1': 0.25rem,
+  '2': 0.5rem,
+  '3': 0.75rem,
+  '4': 1rem,
+  '5': 1.25rem,
+  '6': 1.5rem,
+  '7': 1.75rem,
+  '8': 2rem,
+  '9': 2.25rem,
+  '10': 2.5rem,
+);
+
+// Define utility map
+$utilities: (
+  'padding': (
+    'p',
+    $spacing-scale,
+  ),
+  'padding-left': (
+    'pl',
+    $spacing-scale,
+  ),
+  'padding-right': (
+    'pr',
+    $spacing-scale,
+  ),
+  'padding-top': (
+    'pt',
+    $spacing-scale,
+  ),
+  'padding-bottom': (
+    'pb',
+    $spacing-scale,
+  ),
+  'margin': (
+    'm',
+    $spacing-scale,
+  ),
+  'margin-left': (
+    'ml',
+    $spacing-scale,
+  ),
+  'margin-right': (
+    'mr',
+    $spacing-scale,
+  ),
+  'margin-top': (
+    'mt',
+    $spacing-scale,
+  ),
+  'margin-bottom': (
+    'mb',
+    $spacing-scale,
+  ),
+  'opacity': (
+    'o',
+    (
+      '10': 0.1,
+      '20': 0.2,
+      '30': 0.3,
+      '40': 0.4,
+      '50': 0.5,
+      '60': 0.6,
+      '70': 0.7,
+      '80': 0.8,
+      '90': 0.9,
+      '100': 1,
+    ),
+  ),
+  'border-radius': (
+    'br',
+    (
+      'none': 0,
+      'sm': math.div($base-border-radius, 2),
+      'md': $base-border-radius,
+      'lg': $base-border-radius * 2,
+      'full': 50%,
+    ),
+  ),
+  'font-size': (
+    'text',
+    (
+      'sm': $font-size-sm,
+      'base': $base-font-size,
+      'lg': $font-size-lg,
+      'xl': $font-size-xl,
+      '2xl': $font-size-xxl,
+    ),
+  ),
+);
+
+// Generate utility classes
+@each $property, $utility in $utilities {
+  $prefix: nth($utility, 1);
+  $values: nth($utility, 2);
+
+  @each $key, $value in $values {
+    @if $key == 'default' {
+      .#{$prefix} {
+        #{$property}: $value;
+      }
+    }
+
+ @else {
+      .#{$prefix}-#{$key} {
+        #{$property}: $value;
+      }
+    }
+  }
+}
