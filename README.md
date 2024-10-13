@@ -4,7 +4,7 @@ This project is a **React** application built with **Vite** and **TypeScript**, 
 
 ##### Design Page
 
-- [Preview Figma Design](https://www.figma.com/proto/G0G2hiakTFlfASRSV7xn7v/Figma-Website-Template---Landing-Page-(Free)-(Community)?node-id=0-88&t=rhL0qms5YJiXOZMj-1)
+- [Preview Figma Design](<https://www.figma.com/proto/G0G2hiakTFlfASRSV7xn7v/Figma-Website-Template---Landing-Page-(Free)-(Community)?node-id=0-88&t=rhL0qms5YJiXOZMj-1>)
 - The Figma UI Kit is open sourced by [Figma](https://www.figma.com/community/file/849342658995967505/figma-website-template-landing-page-free).
 
 ## Getting Started
