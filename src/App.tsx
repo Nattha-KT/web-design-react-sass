@@ -1,9 +1,11 @@
-import { Header, Hero } from './components';
+import { Hero, Navbar } from './components';
 
 function App() {
   return (
     <>
-      <Header />
+      <header>
+        <Navbar />
+      </header>
       <main>
         <Hero />
       </main>

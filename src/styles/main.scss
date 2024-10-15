@@ -6,9 +6,12 @@
 // Base & Layout
 @import './base/reset';
 @import './base/breckpoints';
+@import './layout/header';
+@import './layout/content';
 
 //Components
 @import './components/button';
+@import './components/navbar';
 
 // Utilities
 @import './utils/utilities';

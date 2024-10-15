@@ -4,10 +4,12 @@
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
+  min-width: 160px;
   border: 0;
-  padding: $base-padding $base-padding * 2;
+  padding: 5px $base-padding;
   border-radius: $base-border-radius;
   background-color: $bg-color;
+  text-align: center;
 }
 
 .btn {
