@@ -11,7 +11,7 @@
 
   padding: $base-padding $base-padding * 2;
   background: transparent;
-  position: sticky;
+  z-index: 100;
 
   .site-title {
     font-size: $font-size-lg;

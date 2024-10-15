@@ -1,4 +1,3 @@
-import { Button } from '../button';
 import './navbar.scss';
 
 export default function Header() {
@@ -10,7 +9,7 @@ export default function Header() {
         <button>Contact</button>
       </div>
       <p className="nav-head">Landing</p>
-      <Button />
+      <button className="btn-primary text-white">Buy Now</button>
     </nav>
   );
 }

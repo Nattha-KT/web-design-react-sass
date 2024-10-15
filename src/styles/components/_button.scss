@@ -29,9 +29,9 @@
 
     border: $base-border-thickness solid $val;
 
-    &:hover {
-      background-color: $val;
-    }
+    // &:hover {
+    //   background-color: $val;
+    // }
   }
   .btn-complement-#{$key} {
     @include btn($val);
