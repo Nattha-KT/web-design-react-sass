@@ -1,3 +1,4 @@
+import './_hero.scss';
 export default function Hero() {
   return (
     <section className=" hero ">
@@ -10,9 +11,9 @@ export default function Hero() {
           felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
           consequat massa quis enim.
         </p>
-        <div className=" group-btn">
+        <div className=" hero-btn ">
           <button className=" btn-primary text-white">Purchase UI Kit</button>
-          <button className=" btn-outlined ">Learn More</button>
+          <button className=" hero-btn-outlined ">Learn More</button>
         </div>
       </div>
     </section>

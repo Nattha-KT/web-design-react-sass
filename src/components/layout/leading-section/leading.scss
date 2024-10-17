@@ -1,0 +1,14 @@
+.leading {
+  width: 100%;
+  height: 742px;
+
+  .leading-container {
+    position: relative;
+    left: min(12%, 167px);
+    top: min(160px, 30%);
+    display: flex;
+    flex-direction: column;
+    max-width: 539.37px;
+    gap: 20px;
+  }
+}

@@ -1,5 +1,6 @@
+@import '@styles/components/button';
+
 .hero {
-  position: relative;
   width: 100%;
   height: 1161px;
   background-image: url('/public/assets/hero.png');
@@ -8,24 +9,27 @@
     right,
     bottom right;
   background-repeat: no-repeat;
-}
 
-.hero-container {
-  position: relative;
-  left: 12%;
-  top: 30%;
-  display: flex;
-  flex-direction: column;
-  max-width: 539.37px;
-  gap: 20px;
-
-  .group-btn {
+  .hero-container {
+    position: relative;
+    left: min(12%, 167px);
+    top: 30%;
     display: flex;
-    gap: 30px;
+    flex-direction: column;
+    max-width: 539.37px;
+    gap: 20px;
+
+    .hero-btn {
+      display: flex;
+      margin-top: 49px;
+      gap: 30px;
+    }
   }
 }
 
-.btn-outlined {
+.hero-btn-outlined {
+  @include btn(transparent);
+
   font-weight: 600;
   min-width: 160px;
   color: $primary;
@@ -33,6 +37,3 @@
   padding: 5px $base-padding;
   border-radius: $base-border-radius;
 }
-// .space-emp {
-//   flex-grow: 1;
-// }

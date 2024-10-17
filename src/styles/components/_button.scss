@@ -25,7 +25,7 @@
     }
   }
   .btn-outlined-#{$key} {
-    @include btn(#fff);
+    @include btn(#ffff);
 
     border: $base-border-thickness solid $val;
 

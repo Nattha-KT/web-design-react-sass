@@ -1,1 +1,2 @@
-export { default as Hero } from './Hero';
+export * from './hero-section';
+export * from './leading-section';
