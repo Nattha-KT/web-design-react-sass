@@ -1,9 +1,9 @@
 import MapIcon from '@/libs/shared/icons/map-icon';
-import './leading.scss';
-export default function Leading() {
+import './mobile.scss';
+export default function Mobile() {
   return (
-    <section className=" leading ">
-      <div className="leading-container">
+    <section className=" mobile ">
+      <div className="mobile-container">
         <div>
           <p className=" title">Light, Fast & Powerful</p>
           <p className=" sub-title text-secondary">
@@ -14,9 +14,9 @@ export default function Leading() {
             Nulla consequat massa quis enim.
           </p>
         </div>
-        <div className=" leading-items ">
-          {Array.from({ length: 2 }).map(() => (
-            <div className="leading-item ">
+        <div className=" mobile-items ">
+          {Array.from({ length: 4 }).map(() => (
+            <div className="mobile-item ">
               <MapIcon />
               <h5>Title Gose Here</h5>
               <p>
@@ -27,7 +27,7 @@ export default function Leading() {
           ))}
         </div>
       </div>
-      <div className="leading-img"></div>
+      <div className="mobile-img"></div>
     </section>
   );
 }

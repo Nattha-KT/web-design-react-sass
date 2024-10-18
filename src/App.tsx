@@ -1,4 +1,4 @@
-import { Hero, Leading, Navbar } from './components';
+import { Hero, Leading, Mobile, Navbar } from './components';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <main className=" main-container">
         <Hero />
         <Leading />
+        <Mobile />
       </main>
     </>
   );

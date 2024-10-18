@@ -5,7 +5,7 @@
 
 // Base & Layout
 @import './base/reset';
-@import './base/breckpoints';
+@import './base/breakpoints';
 @import './base/typography';
 @import './layout/header';
 @import './layout/content';
@@ -16,3 +16,4 @@
 
 // Utilities
 @import './utils/utilities';
+@import './utils/grid';
