@@ -1,11 +1,11 @@
 import './navbar.scss';
 
-export default function Header() {
+export default function Navbar() {
   return (
     <nav className="navbar">
       <ul className="site-title group-link">
         <li>
-          <a href="#">Button</a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="#">About</a>

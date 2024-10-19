@@ -1,5 +1,6 @@
 $primary: #091133 !default;
 $secondary: #505f98;
+$tertiary: #5d6970;
 $heading: #37447e;
 $base: #111b47;
 $error: #d32752 !default;
@@ -10,6 +11,7 @@ $colors: (
   'heading': $heading,
   'primary': $primary,
   'secondary': $secondary,
+  'tertiary': $tertiary,
   'error': $error,
   'info': $info,
   'base': $base,

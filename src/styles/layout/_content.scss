@@ -1,3 +1,33 @@
 main {
   height: 2000px;
 }
+
+.group-items {
+  display: grid;
+  min-width: 540px;
+  gap: 30px;
+
+  @include lg {
+    grid-template-columns: auto;
+  }
+
+  @include xl {
+    grid-template-columns: auto auto;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 255px;
+
+    > h5 {
+      color: $primary;
+    }
+
+    > p {
+      color: $tertiary;
+      font-size: 14px;
+    }
+  }
+}

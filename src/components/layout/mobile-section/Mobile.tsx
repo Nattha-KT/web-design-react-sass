@@ -5,8 +5,8 @@ export default function Mobile() {
     <section className=" mobile ">
       <div className="mobile-container">
         <div>
-          <p className=" title">Light, Fast & Powerful</p>
-          <p className=" sub-title text-secondary">
+          <p className=" topic">Light, Fast & Powerful</p>
+          <p className=" sub-topic text-secondary">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -14,9 +14,9 @@ export default function Mobile() {
             Nulla consequat massa quis enim.
           </p>
         </div>
-        <div className=" mobile-items ">
+        <div className=" group-items ">
           {Array.from({ length: 4 }).map(() => (
-            <div className="mobile-item ">
+            <div className="item ">
               <MapIcon />
               <h5>Title Gose Here</h5>
               <p>
