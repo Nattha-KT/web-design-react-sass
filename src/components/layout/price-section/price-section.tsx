@@ -1,7 +1,7 @@
 import './price.scss';
 export default function Price() {
   return (
-    <section className=" price-container">
+    <section className=" price-container" aria-labelledby="price-section">
       <div className=" price-content">
         <h2 className=" topic-section">A Price To Suit Everyone</h2>
         <p className=" text-secondary sub-topic">

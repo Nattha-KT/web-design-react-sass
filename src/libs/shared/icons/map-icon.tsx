@@ -1,4 +1,4 @@
-import { IconSvgProps } from '../../../types';
+import { IconSvgProps } from '@/types';
 
 export default function MapIcon({ size = 36 }: IconSvgProps) {
   return (

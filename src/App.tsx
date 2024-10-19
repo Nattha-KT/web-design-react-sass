@@ -2,6 +2,7 @@ import {
   About,
   Company,
   Contact,
+  Footer,
   Hero,
   Leading,
   Mobile,
@@ -12,7 +13,7 @@ import {
 function App() {
   return (
     <>
-      <header>
+      <header aria-label="Website header">
         <Navbar />
       </header>
       <main className=" main-container">
@@ -24,6 +25,7 @@ function App() {
         <Contact />
         <Price />
       </main>
+      <Footer />
     </>
   );
 }

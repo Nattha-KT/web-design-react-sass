@@ -1,7 +1,7 @@
 import './about.scss';
 export default function About() {
   return (
-    <section className=" about ">
+    <section className=" about " aria-labelledby="about-section">
       <div className="about-img"></div>
       <div className="about-container">
         <div>

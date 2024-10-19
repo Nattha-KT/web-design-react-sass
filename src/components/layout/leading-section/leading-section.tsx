@@ -2,7 +2,7 @@ import { MapIcon } from '@/libs';
 import './leading.scss';
 export default function Leading() {
   return (
-    <section className=" leading ">
+    <section className=" leading" aria-labelledby="leading-section">
       <div className="leading-container">
         <div>
           <p className=" topic-section">Light, Fast & Powerful</p>

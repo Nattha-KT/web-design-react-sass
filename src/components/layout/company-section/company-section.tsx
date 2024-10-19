@@ -2,7 +2,7 @@ import { MapIcon } from '@/libs';
 import './company.scss';
 export default function Company() {
   return (
-    <section className=" company ">
+    <section className=" company " aria-labelledby="company-section">
       <div className="company-img"></div>
       <div className="company-container">
         <div className="company-content">

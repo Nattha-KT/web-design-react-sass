@@ -1,7 +1,7 @@
 import './_hero.scss';
 export default function Hero() {
   return (
-    <section className=" hero ">
+    <section className=" hero " aria-labelledby="hero-section">
       <div className="hero-container">
         <p className=" topic">Introduce Your Product Quickly & Effectively</p>
         <p className=" sub-topic text-secondary">

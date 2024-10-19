@@ -2,7 +2,7 @@ import { MapIcon } from '@/libs';
 import './mobile.scss';
 export default function Mobile() {
   return (
-    <section className=" mobile ">
+    <section className=" mobile " aria-labelledby="mobile-section">
       <div className="mobile-container">
         <div>
           <p className=" topic-section">Light, Fast & Powerful</p>
