@@ -5,13 +5,13 @@ export default function Navbar() {
     <nav className="navbar">
       <ul className="site-title group-link">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <p className="nav-head">Landing</p>

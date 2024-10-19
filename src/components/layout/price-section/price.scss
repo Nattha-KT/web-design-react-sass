@@ -1,4 +1,4 @@
-@mixin flex-col {
+%flex-col {
   display: flex;
   flex-direction: column;
 }
@@ -27,7 +27,7 @@
     .price-dolar {
       display: flex;
 
-      @include flex-col;
+      @extend %flex-col;
 
       margin-top: 20px;
       margin-bottom: 60px;
@@ -45,7 +45,7 @@
     }
 
     .price-pourchase {
-      @include flex-col;
+      @extend %flex-col;
 
       align-items: center;
       gap: 9px;

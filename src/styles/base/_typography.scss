@@ -1,16 +1,16 @@
-@mixin font-topic {
+%font-topic {
   color: $primary;
   font-weight: 500;
 }
 
 .topic {
-  @include font-topic;
+  @extend %font-topic;
 
   font-size: 50px;
 }
 
 .topic-section {
-  @include font-topic;
+  @extend %font-topic;
 
   font-size: 36px;
 }
