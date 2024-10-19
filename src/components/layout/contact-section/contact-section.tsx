@@ -5,7 +5,7 @@ export default function Contact() {
       <div className="contact-img"></div>
       <div className="contact-container">
         <div>
-          <p className=" topic">Light, Fast & Powerful</p>
+          <p className=" topic-section">Light, Fast & Powerful</p>
           <p className=" sub-topic text-secondary">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque

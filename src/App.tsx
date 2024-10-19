@@ -1,4 +1,13 @@
-import { About, Contact, Hero, Leading, Mobile, Navbar } from './components';
+import {
+  About,
+  Company,
+  Contact,
+  Hero,
+  Leading,
+  Mobile,
+  Navbar,
+  Price,
+} from './components';
 
 function App() {
   return (
@@ -11,7 +20,9 @@ function App() {
         <Leading />
         <Mobile />
         <About />
+        <Company />
         <Contact />
+        <Price />
       </main>
     </>
   );

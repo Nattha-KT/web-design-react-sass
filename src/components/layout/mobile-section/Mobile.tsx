@@ -1,11 +1,11 @@
-import MapIcon from '@/libs/shared/icons/map-icon';
+import { MapIcon } from '@/libs';
 import './mobile.scss';
 export default function Mobile() {
   return (
     <section className=" mobile ">
       <div className="mobile-container">
         <div>
-          <p className=" topic">Light, Fast & Powerful</p>
+          <p className=" topic-section">Light, Fast & Powerful</p>
           <p className=" sub-topic text-secondary">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque

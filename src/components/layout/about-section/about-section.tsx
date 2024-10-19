@@ -5,7 +5,7 @@ export default function About() {
       <div className="about-img"></div>
       <div className="about-container">
         <div>
-          <p className=" topic">Light, Fast & Powerful</p>
+          <p className=" topic-section">Light, Fast & Powerful</p>
           <p className=" sub-topic text-secondary">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque

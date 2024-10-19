@@ -1,11 +1,11 @@
-import MapIcon from '@/libs/shared/icons/map-icon';
+import { MapIcon } from '@/libs';
 import './leading.scss';
 export default function Leading() {
   return (
     <section className=" leading ">
       <div className="leading-container">
         <div>
-          <p className=" topic">Light, Fast & Powerful</p>
+          <p className=" topic-section">Light, Fast & Powerful</p>
           <p className=" sub-topic text-secondary">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque

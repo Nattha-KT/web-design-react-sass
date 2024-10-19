@@ -1,9 +1,21 @@
-.topic {
+@mixin font-topic {
   color: $primary;
   font-weight: 500;
+}
+
+.topic {
+  @include font-topic;
+
   font-size: 50px;
+}
+
+.topic-section {
+  @include font-topic;
+
+  font-size: 36px;
 }
 
 .sub-topic {
   line-height: 1.8;
+  color: $secondary;
 }
