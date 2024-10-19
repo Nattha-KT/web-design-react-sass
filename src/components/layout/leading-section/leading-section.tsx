@@ -5,8 +5,8 @@ export default function Leading() {
     <section className=" leading ">
       <div className="leading-container">
         <div>
-          <p className=" title">Light, Fast & Powerful</p>
-          <p className=" sub-title text-secondary">
+          <p className=" topic">Light, Fast & Powerful</p>
+          <p className=" sub-topic text-secondary">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -14,12 +14,12 @@ export default function Leading() {
             Nulla consequat massa quis enim.
           </p>
         </div>
-        <div className=" leading-items ">
+        <div className=" group-items ">
           {Array.from({ length: 2 }).map(() => (
-            <div className="leading-item ">
+            <div className="item ">
               <MapIcon />
               <h5>Title Gose Here</h5>
-              <p>
+              <p className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 alias nulla numquam saepe.
               </p>

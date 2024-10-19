@@ -1,33 +1,40 @@
-.leading {
+.contact {
   width: 100%;
-  height: 742px;
+  height: 700px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  .leading-container {
+  .contact-container {
     position: relative;
-    left: min(12%, 165px);
+    right: min(15%, 165px);
     display: flex;
     flex-direction: column;
     max-width: 540px;
     z-index: 2;
-    gap: 80px;
+    gap: 40px;
 
     > div:first-child {
       display: flex;
       flex-direction: column;
       gap: 20px;
     }
+
+    > button {
+      max-width: 150px;
+      font-size: 14px;
+    }
   }
 
-  .leading-img {
+  .contact-img {
     position: relative;
-    min-width: 540px;
-    min-height: 524px;
-    right: min(12%, 165px);
-    background-image: url('/assets/undraw.jpg');
+    width: 480px;
+    height: 315px;
+    left: min(15%, 165px);
+    // top: 100px;
+    background-image: url('/assets/undraw3.png');
     background-size: contain;
-    z-index: 0;
+    background-repeat: no-repeat;
+    z-index: 1;
   }
 }

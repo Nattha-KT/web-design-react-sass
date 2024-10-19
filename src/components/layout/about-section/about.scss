@@ -1,13 +1,13 @@
-.leading {
+.about {
   width: 100%;
-  height: 742px;
+  height: 700px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  .leading-container {
+  .about-container {
     position: relative;
-    left: min(12%, 165px);
+    right: min(15%, 165px);
     display: flex;
     flex-direction: column;
     max-width: 540px;
@@ -21,13 +21,15 @@
     }
   }
 
-  .leading-img {
+  .about-img {
     position: relative;
-    min-width: 540px;
-    min-height: 524px;
-    right: min(12%, 165px);
-    background-image: url('/assets/undraw.jpg');
+    width: 480px;
+    height: 315px;
+    left: min(15%, 165px);
+    // top: 100px;
+    background-image: url('/assets/undraw2.png');
     background-size: contain;
-    z-index: 0;
+    background-repeat: no-repeat;
+    z-index: 1;
   }
 }

@@ -1,1 +1,1 @@
-export { default as Leading } from './Leading';
+export { default as Leading } from './leading-section';
