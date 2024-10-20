@@ -1,0 +1,28 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@font-face {
+  font-family: Roboto;
+  src:
+    url('/assets/fonts/roboto-regular.woff2') format('woff2'),
+    url('/assets/fonts/roboto-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:
+    url('/assets/fonts/roboto-500.woff2') format('woff2'),
+    url('/assets/fonts/roboto-500.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  display: swap;
+  font-family: Roboto;
+  src:
+    url('/assets/fonts/roboto-700.woff2') format('woff2'),
+    url('/assets/fonts/roboto-700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
