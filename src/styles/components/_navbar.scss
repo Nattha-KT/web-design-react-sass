@@ -13,6 +13,11 @@
   background: transparent;
   z-index: 50;
 
+  &.scrolled {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(172 172 172 / 20%);
+  }
+
   .site-title {
     font-size: $font-size-lg;
   }

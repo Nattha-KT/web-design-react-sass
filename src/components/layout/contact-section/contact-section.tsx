@@ -1,7 +1,11 @@
 import './contact.scss';
 export default function Contact() {
   return (
-    <section className=" contact" aria-labelledby="content-section">
+    <section
+      id="contact"
+      className=" contact"
+      aria-labelledby="content-section"
+    >
       <div className="contact-img"></div>
       <div className="contact-container">
         <div>
