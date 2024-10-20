@@ -10,7 +10,7 @@ export default function Leading() {
       offset: ['start start', 'end 60%'],
     });
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
-  const translateY = useTransform(scrollYProgress, [0, 1], ['0%', '-70%']);
+  const translateY = useTransform(scrollYProgress, [0, 1], ['0%', '-30%']);
   return (
     <motion.section
       ref={ref}
@@ -65,8 +65,8 @@ export default function Leading() {
         </motion.div>
       </div>
       <motion.div
-        initial={{ opacity: 0, x: -60 }}
         viewport={{ once: true }}
+        initial={{ opacity: 0 }}
         style={{ opacity, y: translateY }}
         className="leading-img"
       ></motion.div>
