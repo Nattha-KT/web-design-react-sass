@@ -1,4 +1,9 @@
-import { gridContainerVariants, gridItemVariants, MapIcon } from '@/libs';
+import {
+  gridContainerVariants,
+  gridItemVariants,
+  MapIcon,
+  transitionVariants,
+} from '@/libs';
 import { motion, MotionValue, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import './leading.scss';
@@ -22,14 +27,7 @@ export default function Leading() {
       <div className="leading-container">
         <motion.div
           initial={{ opacity: 0, x: -60 }}
-          whileInView={{
-            opacity: 1,
-            x: 1,
-            transition: {
-              delay: 0.1,
-              duration: 0.8,
-            },
-          }}
+          whileInView={transitionVariants}
           viewport={{ once: false }}
           style={{ opacity }}
         >

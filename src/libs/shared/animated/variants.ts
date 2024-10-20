@@ -48,3 +48,13 @@ export const buttonVariants = {
     },
   },
 };
+
+export const transitionVariants = {
+  opacity: 1,
+  y: 1,
+  x: 1,
+  transition: {
+    delay: 0.1,
+    duration: 0.6,
+  },
+};

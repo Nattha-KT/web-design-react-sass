@@ -1,4 +1,4 @@
-import { buttonVariants } from '@/libs';
+import { buttonVariants, transitionVariants } from '@/libs';
 import { motion, MotionValue, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import './contact.scss';
@@ -23,14 +23,7 @@ export default function Contact() {
       <motion.div
         initial={{ opacity: 0, x: 60 }}
         viewport={{ once: false }}
-        whileInView={{
-          opacity: 1,
-          x: 1,
-          transition: {
-            delay: 0.1,
-            duration: 0.8,
-          },
-        }}
+        whileInView={transitionVariants}
         className="contact-container"
       >
         <div>
