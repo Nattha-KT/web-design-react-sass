@@ -10,7 +10,6 @@ export default function Company() {
       offset: ['start start', 'end 50%'],
     });
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
-  // const translateX = useTransform(scrollYProgress, [0, 1], ['0%', '-30%']);
   return (
     <motion.section
       ref={ref}
